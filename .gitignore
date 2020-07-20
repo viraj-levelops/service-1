@@ -1,0 +1,14 @@
+**/*.iml
+secrets/
+**/build
+**/gradle
+*.class
+**/gradlew*
+**/\.gradle/
+.DS_Store
+.idea/
+**/.idea
+gradle.properties
+target/
+velocity.log
+
