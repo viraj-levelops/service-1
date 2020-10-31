@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 public class Sleeper {
     private static final Random rnd = new Random();
     public boolean doWork(){
-        int sleepTime = rnd.nextInt(30);
+        int sleepTime = rnd.nextInt(2);
         long timeInMiliSecs = TimeUnit.SECONDS.toMillis(sleepTime);
         try {
             Thread.sleep(timeInMiliSecs);
